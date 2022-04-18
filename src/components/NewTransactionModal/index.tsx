@@ -25,7 +25,7 @@ export function NewTransactionModal({
   async function handleCreateNewTransaction(event: FormEvent) {
     event.preventDefault();
 
-    const transaction = await createTransaction({
+    await createTransaction({
       title,
       amount,
       category,
