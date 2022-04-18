@@ -22,10 +22,10 @@ createServer({
         },
         {
           id: 2,
-          title: 'Freelance de website',
-          type: 'deposit',
-          category: 'Desenvolvimento de sites',
-          amount: 4000,
+          title: 'Aluguel',
+          type: 'withdraw',
+          category: 'Casa',
+          amount: 2000,
           createdAt: new Date('2021-03-15 09:00:00')
         },
       ],
